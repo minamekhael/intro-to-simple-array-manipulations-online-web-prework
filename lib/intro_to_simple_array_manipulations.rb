@@ -42,12 +42,12 @@ def using_insert(list_of_esoteric_programming_languages, insert)
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
-    captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+    captain_planet_and_the_planeteers == ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
     captain_planet_and_the_planeteers.uniq
 end
 
 def using_flatten(private_colleges_in_newyork)
-   private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+   private_colleges_in_newyork == ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
     private_colleges_in_newyork.flatten
 end
 
